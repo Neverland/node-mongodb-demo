@@ -1,0 +1,22 @@
+extends layout
+block content
+	h1= title
+	form(action='/register' method='POST')
+		fieldset
+			legend Sign up
+			p
+				label First
+				input(name='user[fist]',type='text', required,maxlength='20',size='10')
+			p
+				label Last
+				input(name='user[last]',type='text', required,size='10')
+			p
+				label Email
+				input(name='user[email]',type='text', required)
+			p
+				label Password
+				input(name='user[password]',type='password', required)
+			p
+				button Submit
+			p
+				a(href='/') Go back

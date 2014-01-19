@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'link', 'bower' ]
+2 info using npm@1.3.23
+3 info using node@v0.10.24
+4 info /MyHDD/study/javascript/node/node_modules/bower unbuild
+5 verbose link symlinking /usr/local/lib/node_modules/bower to /MyHDD/study/javascript/node/node_modules/bower
+6 info build /MyHDD/study/javascript/node/node_modules/bower
+7 info preinstall bower@1.2.8
+8 verbose linkStuff [ false,
+8 verbose linkStuff   false,
+8 verbose linkStuff   false,
+8 verbose linkStuff   '/MyHDD/study/javascript/node/node_modules' ]
+9 info linkStuff bower@1.2.8
+10 warn prefer global bower@1.2.8 should be installed with -g
+11 verbose linkBins bower@1.2.8
+12 verbose link bins [ { bower: 'bin/bower' },
+12 verbose link bins   '/MyHDD/study/javascript/node/node_modules/.bin',
+12 verbose link bins   false ]
+13 verbose linkMans bower@1.2.8
+14 verbose rebuildBundles bower@1.2.8
+15 verbose rebuildBundles [ '.bin',
+15 verbose rebuildBundles   'abbrev',
+15 verbose rebuildBundles   'archy',
+15 verbose rebuildBundles   'bower-config',
+15 verbose rebuildBundles   'bower-endpoint-parser',
+15 verbose rebuildBundles   'bower-json',
+15 verbose rebuildBundles   'bower-logger',
+15 verbose rebuildBundles   'bower-registry-client',
+15 verbose rebuildBundles   'cardinal',
+15 verbose rebuildBundles   'chalk',
+15 verbose rebuildBundles   'chmodr',
+15 verbose rebuildBundles   'decompress-zip',
+15 verbose rebuildBundles   'fstream',
+15 verbose rebuildBundles   'fstream-ignore',
+15 verbose rebuildBundles   'glob',
+15 verbose rebuildBundles   'graceful-fs',
+15 verbose rebuildBundles   'handlebars',
+15 verbose rebuildBundles   'inquirer',
+15 verbose rebuildBundles   'junk',
+15 verbose rebuildBundles   'lru-cache',
+15 verbose rebuildBundles   'mkdirp',
+15 verbose rebuildBundles   'mout',
+15 verbose rebuildBundles   'nopt',
+15 verbose rebuildBundles   'open',
+15 verbose rebuildBundles   'osenv',
+15 verbose rebuildBundles   'p-throttler',
+15 verbose rebuildBundles   'promptly',
+15 verbose rebuildBundles   'q',
+15 verbose rebuildBundles   'request',
+15 verbose rebuildBundles   'request-progress',
+15 verbose rebuildBundles   'retry',
+15 verbose rebuildBundles   'rimraf',
+15 verbose rebuildBundles   'semver',
+15 verbose rebuildBundles   'stringify-object',
+15 verbose rebuildBundles   'sudo-block',
+15 verbose rebuildBundles   'tar',
+15 verbose rebuildBundles   'tmp',
+15 verbose rebuildBundles   'update-notifier',
+15 verbose rebuildBundles   'which' ]
+16 error Error: EPERM, chmod '/MyHDD/study/javascript/node/node_modules/bower/bin/bower'
+16 error  { [Error: EPERM, chmod '/MyHDD/study/javascript/node/node_modules/bower/bin/bower']
+16 error   errno: 50,
+16 error   code: 'EPERM',
+16 error   path: '/MyHDD/study/javascript/node/node_modules/bower/bin/bower' }
+17 error Please try running this command again as root/Administrator.
+18 error System Darwin 13.0.0
+19 error command "node" "/usr/local/bin/npm" "link" "bower"
+20 error cwd /MyHDD/study/javascript/node
+21 error node -v v0.10.24
+22 error npm -v 1.3.23
+23 error path /MyHDD/study/javascript/node/node_modules/bower/bin/bower
+24 error code EPERM
+25 error errno 50
+26 error stack Error: EPERM, chmod '/MyHDD/study/javascript/node/node_modules/bower/bin/bower'
+27 verbose exit [ 50, true ]
